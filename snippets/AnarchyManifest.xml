@@ -1,1 +1,9 @@
-
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="mi-sdm439"
+           fetch="https://github.com/mi-sdm439"
+           revision="lineage-18.1" />
+  
+  <!--AnarchyProject-->
+  <project path="android" name="android" remote="anarchy" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-gnu-linaro-5.5.0" name="platform_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-gnu-5.5.0" 
